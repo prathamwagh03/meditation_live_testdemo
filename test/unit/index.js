@@ -1,4 +1,4 @@
-const { fetchUsersData } = require("../../users") 
+const { fetchUsersData } = require("../../src/utils/users")
 const expect = require("chai").expect
 const sinon = require("sinon")
 const { MongoClient } = require("mongodb")
